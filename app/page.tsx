@@ -1,35 +1,24 @@
-import Image from "next/image";
 import LinkButton from "./button";
 
 export default function Home() {
 
   return (
-    <div className="shadow-inner bg-gradient-to-tr from-rose-800 to-amber-200 p-8 grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="shadow-inner bg-gradient-to-tr from-rose-800 to-amber-200 p-8 grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <h1>Website Wisuda April ITB</h1>
-        <LinkButton></LinkButton>
-
-        <div className="border-black-3 flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+        <div className="text-center sm:text-left">
+          <h1 className="text-white text-3xl sm:text-4xl font-bold mb-6">Daftar Website Wisuda April ITB</h1>
+          
+          <div className="flex flex-col gap-4 sm:w-auto min-w-[200px]">
+            <LinkButton text="Wisuda April 2024" linkWeb="https://youtu.be/dQw4w9WgXcQ?si=s0m5t8YxCMYGgdrD"/>
+            <LinkButton text="Wisuda April 2023" linkWeb="https://youtu.be/dQw4w9WgXcQ?si=s0m5t8YxCMYGgdrD"/>
+            <LinkButton text="Wisuda April 2022" linkWeb="https://youtu.be/dQw4w9WgXcQ?si=s0m5t8YxCMYGgdrD"/>
+            <LinkButton text="Wisuda April 2021" linkWeb="https://youtu.be/dQw4w9WgXcQ?si=s0m5t8YxCMYGgdrD"/>
+          </div>
         </div>
       </main>
+
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <p>Made by Mayla Yaffa</p>
+        <p className="text-white">Made by Mayla Yaffa</p>
       </footer>
     </div>
   );

@@ -9,10 +9,10 @@ export default function Home() {
           <h1 className="text-white text-3xl sm:text-4xl font-bold mb-6">Daftar Website Wisuda April ITB</h1>
           
           <div className="flex flex-col gap-4 sm:w-auto min-w-[200px]">
-            <LinkButton text="Wisuda April 2024" linkWeb="https://youtu.be/dQw4w9WgXcQ?si=s0m5t8YxCMYGgdrD"/>
-            <LinkButton text="Wisuda April 2023" linkWeb="https://youtu.be/dQw4w9WgXcQ?si=s0m5t8YxCMYGgdrD"/>
-            <LinkButton text="Wisuda April 2022" linkWeb="https://youtu.be/dQw4w9WgXcQ?si=s0m5t8YxCMYGgdrD"/>
-            <LinkButton text="Wisuda April 2021" linkWeb="https://youtu.be/dQw4w9WgXcQ?si=s0m5t8YxCMYGgdrD"/>
+            <LinkButton text="Wisuda April 2025" linkWeb="https://wisudaitb.id"/>
+            <LinkButton text="Wisuda April 2024" linkWeb="https://wisudaitb.id"/>
+            <LinkButton text="Wisuda April 2023" linkWeb="https://wisudaitb.id"/>
+            <LinkButton text="Wisuda April 2022" linkWeb="https://wisudaitb.id"/>
           </div>
         </div>
       </main>
